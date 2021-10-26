@@ -1,0 +1,11 @@
+
+
+ol#modalIconPicker{
+	list-style:none;
+}
+
+ol#modalIconPicker li{
+	float:left;
+	margin:1ex;
+	cursor:pointer;
+}
