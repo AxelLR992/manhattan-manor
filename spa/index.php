@@ -714,17 +714,10 @@
                 </div>
 
             <?php
-            } // for ($i = 0; $i < $rows_count; ++$i)
+            }
             ?>
 
-        <?php
-        } // if ($rows_count > 0)
-
-        $result->close;
-        $row->close;
-        // Closed later
-        //include_once '../app_includes/db_close.php';
-        ?>
+        <?php } ?>
 
         <!-- Instagram Section -->
         <section id="instagram" class="instagram-section bg-black">
@@ -1278,11 +1271,8 @@
         </div>
 
     <?php
-    } // if ($rows_count > 0)
-
-    $result->close;
-    $row->close;
-    include_once './app_includes/db_close.php';
+    }
+    include_once '../app_includes/db_close.php';
     ?>
     <script>
         // Initialize and add the map
