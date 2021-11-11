@@ -73,10 +73,12 @@
                 </div>
             </div>
             <div class="align-items-center" style="text-align: center; padding-top: 20px; padding-bottom: 20px">
-                <span class="text-dark small">Visite nuestro restaurante</span><br><br>
-                <a href="https://www.eventbrite.com/e/rosie-ogradys-new-years-eve-times-square-celebration-code-promo15-tickets-161274044007s" target="_blank">
-                    <img alt="Rosie O'Grady's Restaurant" src="/img/logo_rosie.png" /><br/><br/>
-                    <span class="text-dark font-weight-bold">Celebre el fin de año con nosotros</span>
+                <a href="https://rosieogradys.com/" target="_blank">
+                    <span class="text-dark font-weight-bold">Visite Nuestro Restaurante</span><br><br>
+                    <img alt="Rosie O'Grady's Restaurant" src="/img/logo_rosie.png" /><br /><br />
+                </a>
+                <a href="https://www.eventbrite.com/e/rosie-ogradys-new-years-eve-times-square-celebration-code-promo15-tickets-161274044007" target="_blank">
+                    <span class="text-dark font-weight-bold">Celebre Rosie O'Gradys<br> Fiesta de Fin de Año 2021-2022</span>
                 </a>
             </div>
 
