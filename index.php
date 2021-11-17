@@ -79,6 +79,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-134617649-1');
+        gtag('config', 'AW-755860601');
     </script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
@@ -992,7 +993,7 @@
                     <div class="col-lg-12 text-center">
                         <img alt="New Year's Eve" class="img-fluid" src="./img/event_banner.jpg" /><br><br>
                         <form method="get" action="https://www.eventbrite.com/e/manhattan-manors-new-years-eve-celebration-in-the-heart-of-times-square-tickets-87385104199" target="_blank">
-                            <button class="header-button filled" style="width : 250px;">BUY TICKETS</button>
+                            <button id="ny-eve-buy-tickets-btn" class="header-button filled" style="width : 250px;">BUY TICKETS</button>
                         </form>
                     </div>
                 </div>

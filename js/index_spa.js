@@ -759,7 +759,6 @@ function growDiv() {
     "Show More" == button.innerHTML ? "Show Less" : "Show More";
 }
 
-
 // Handle video
 var buttonPlay = document.getElementById("button-play");
 var buttonPause = document.getElementById("button-pause");
@@ -781,3 +780,21 @@ function pauseSound() {
 buttonPlay.addEventListener("click", playSound);
 buttonPause.addEventListener("click", pauseSound);
 // Handle video ends
+
+// Google Ads conversion events
+
+var buyTicketsButton = document.getElementById("ny-eve-buy-tickets-btn");
+var contactUsButton = document.getElementById("contact-us-button");
+var subscribeButton = document.getElementById("btn-subscribe");
+
+buyTicketsButton.addEventListener("click", function () {
+  gtag("event", "conversion", { send_to: "AW-755860601/kmD5CIC42IMDEPmItugC" });
+});
+contactUsButton.addEventListener("click", function () {
+  gtag("event", "conversion", { send_to: "AW-755860601/kmD5CIC42IMDEPmItugC" });
+});
+subscribeButton.addEventListener("click", function () {
+  gtag("event", "conversion", { send_to: "AW-755860601/kmD5CIC42IMDEPmItugC" });
+});
+
+// Google Ads conversion events ends
