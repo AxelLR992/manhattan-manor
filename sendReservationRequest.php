@@ -102,6 +102,8 @@
 
         $mail->setFrom($email_from, 'Manhattan Manor');
         $mail->addAddress($email_to);
+        // Email for Lourdes Padilla
+        $mail->addAddress("digital.hco@gmail.com");
         $mail->addReplyTo($email_replyto);
 
         $mail->isHTML(true);
