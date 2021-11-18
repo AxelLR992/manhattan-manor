@@ -216,6 +216,10 @@
                             <p style="color: #dbdbdb">
                                 Two unique spaces that are easy, versatile, and lend themselves to all types of events.  Whether you are hosting an all day conference, elegant wedding, photo shoot, or special family celebration, Manhattan Manor is the place.
                             </p>
+                            <p class="text-white">
+                                Covid-19 Vaccine Key to New York City<br />
+                                <a target="_blank" href="https://www1.nyc.gov/site/doh/covid/covid-19-vaccines-keytonyc.page">Official NYC Government Website</a>
+                            </p>
                         </div>
                     </div>
 
@@ -986,7 +990,11 @@
                         <div class="text-center px-4 mb-5">
                             <h1 class="section-title">New Year's Eve Celebration<br>2021-2022</h1>
                             <p>
-                              <br><br>  Join the party and enjoy an all-inclusive 5-course gourmet dinner, premium open bar, dancing on two floors, festivities, and a view of bustling Times Square. Dance the night away and just before midnight, step out to our cordoned off sidewalk to experience the electrifying atmosphere of the crowd, join in the Times Square Ball Drop Count Down, and welcome in the New Year!
+                                <br><br> Join the party and enjoy an all-inclusive 5-course gourmet dinner, premium open bar, dancing on two floors, festivities, and a view of bustling Times Square. Dance the night away and just before midnight, step out to our cordoned off sidewalk to experience the electrifying atmosphere of the crowd, join in the Times Square Ball Drop Count Down, and welcome in the New Year!
+                            </p>
+                            <p>
+                                Covid-19 Vaccine Key to New York City<br/>
+                                <a href="https://www1.nyc.gov/site/doh/covid/covid-19-vaccines-keytonyc.page">Official NYC Government Website</a>
                             </p>
                         </div>
                     </div>
