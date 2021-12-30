@@ -195,7 +195,7 @@
                     <div class="col-12 col-lg-7 p-4 content-tween-right" id="who_we_are">
                         <h1 class="section-title text-center text-lg-left">Who We Are</h1>
                         <div class="text-center text-lg-left">
-                            Manhattan Manor is home to two unique event venues in one prime midtown Manhattan location. 7,000 square feet of luxurious space with gorgeous French Doors, skylights, exposed brick, mahogany floors, and spectacular views from Central Park to Times Square. Our team provides turnkey intimate services for corporate, social and not-for-profit events. An independent, dedicate special event space for 20 years with one of the newest, most modern, divine spaces in New York.
+                            Manhattan Manor is home to two unique event venues in one prime midtown Manhattan location. 7,000 square feet of luxurious space with gorgeous French Doors, skylights, exposed brick, mahogany floors, and spectacular views from Central Park to Times Square. Our team provides turnkey intimate services for corporate, social and not-for-profit events. An independent, dedicated special event space for 20 years with one of the newest, most modern, divine spaces in New York.
                         </div>
 
                         <div>
@@ -1122,6 +1122,12 @@
                         </a>
                     </div>
 
+                </div>
+
+                <div class="sold-out-modal">
+                    <div>
+                        SOLD-OUT
+                    </div>
                 </div>
 
             </div>

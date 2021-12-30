@@ -1207,6 +1207,12 @@
               -->
                 </div>
 
+                <div class="sold-out-modal">
+                    <div>
+                        AGOTADO
+                    </div>
+                </div>
+
                 <!-- 
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
