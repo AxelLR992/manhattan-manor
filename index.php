@@ -988,7 +988,7 @@
                 <div class="row align-items-center no-gutters">
                     <div id="parallax-text-vendors" class="col-lg-12 single-tween-item">
                         <div class="text-center px-4 mb-5">
-                            <h1 class="section-title">New Year's Eve Celebration<br>2021-2022</h1>
+                            <h1 class="section-title">New Year's Eve Celebration<br>2022-2023</h1>
                             <p>
                                 <br><br> Join the party and enjoy an all-inclusive 5-course gourmet dinner, premium open bar, dancing on two floors, festivities, and a view of bustling Times Square. Dance the night away and just before midnight, step out to our cordoned off sidewalk to experience the electrifying atmosphere of the crowd, join in the Times Square Ball Drop Count Down, and welcome in the New Year!
                             </p>
@@ -1108,7 +1108,7 @@
                     <div class="w-100">
                         <img alt="New Year's Eve Party" src="./img/modal/mm-popup.jpg" class="img-fluid" style="padding-bottom: 16px;" />
 
-                        <h5 style="text-transform: uppercase;">New Year's Eve 2021 - 2022</h5>
+                        <h5 style="text-transform: uppercase;">New Year's Eve 2022 - 2023</h5>
                         <h5 style="text-transform: uppercase; margin-bottom: 16px;">Join The Celebration</h5>
 
                         <p style="text-align: center;">

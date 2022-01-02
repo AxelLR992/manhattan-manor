@@ -1013,7 +1013,7 @@
                 <div class="row align-items-center no-gutters">
                     <div id="parallax-text-vendors" class="col-lg-12 single-tween-item">
                         <div class="text-center px-4 mb-5">
-                            <h1 class="section-title">Fiesta de Fin de Año<br>2021-2022</h1>
+                            <h1 class="section-title">Fiesta de Fin de Año<br>2022-2023</h1>
                             <p><br><br>
                                 Únase a la fiesta y disfrute de una cena gourmet de 5 platos con todo incluido, barra libre premium, baile en dos pisos, festividades y una vista de la bulliciosa Times Square. Baile toda la noche y, justo antes de la medianoche, salgs a nuestra acera acordonada para experimentar la atmósfera electrizante de la multitud, únete al Times Square Ball Drop Count Down y celebre el ¡el Año Nuevo!
                             </p>
@@ -1166,7 +1166,7 @@
                     <div class="w-100">
                         <img alt="New Year's Eve Party" src="../img/modal/mm-popup.jpg" class="img-fluid" style="padding-bottom: 16px;" />
 
-                        <h5 style="text-transform: uppercase;">Fin de Año 2021 - 2022</h5>
+                        <h5 style="text-transform: uppercase;">Fin de Año 2022 - 2023</h5>
                         <h5 style="text-transform: uppercase; margin-bottom: 16px;">Únete a la Celebración</h5>
 
                         <p style="text-align: center;">
