@@ -589,11 +589,12 @@ var userFeed = new Instafeed({
 
 // Other scripts
 
-$(function () {
-  setTimeout(function () {
-    $("#exampleModal").modal("show");
-  }, 10000);
-});
+// * This shows popup about New Year's Event. It should be uncommented at July 1st.
+// $(function () {
+//   setTimeout(function () {
+//     $("#exampleModal").modal("show");
+//   }, 10000);
+// });
 
 var formSent = false;
 
