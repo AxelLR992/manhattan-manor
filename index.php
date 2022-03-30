@@ -15,6 +15,7 @@
     <meta property="og:image" content="https://www.manhattanmanor.com/img/venue-skylight.jpg">
     <meta property="og:image" content="https://www.manhattanmanor.com/img/venue-manhattanclub.jpg">
     <meta property="og:image" content="https://www.manhattanmanor.com/img/new-year-celebration.jpg">
+    <meta name="facebook-domain-verification" content="kgcmcgtv7lnbrjdbcvxleo8es3bwtw" />
     <link rel="icon" type="image/png" href="./img/favicon.png" />
 
     <title>Manhattan Manor</title>
