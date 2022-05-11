@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+
+    .caption-container h5 {
+      font-size: 30px;
+      margin: 20px 0;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 12</div>
+        <img src="../img/events/ev-corporate.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 12</div>
+        <img src="../img/events/ev-wedding.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 12</div>
+        <img src="../img/events/ev-product.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 12</div>
+        <img src="../img/events/ev-nonprofit.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 12</div>
+        <img src="../img/events/ev-fashion.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 12</div>
+        <img src="../img/events/ev-mitzvah.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 12</div>
+        <img src="../img/events/meetings_conferences.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">8 / 12</div>
+        <img src="../img/events/filming _photo.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">9 / 12</div>
+        <img src="../img/events/ev-broadcast.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">10 / 12</div>
+        <img src="../img/events/ev-production.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">11 / 12</div>
+        <img src="../img/events/galas_fundraisers.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">12 / 12</div>
+        <img src="../img/events/sweet_16s.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        captionText.innerHTML = getCaptionText(slideIndex);
+        slides[slideIndex - 1].style.display = "block";
+      }
+
+      function getCaptionText(slide) {
+        switch (slide) {
+          case 1:
+            return `
+            <h5>Corporate</h5>
+            An ideal venue for early morning breakfasts, lunch meetings, corporate dinners, full day conferences, holiday parties, and galas – the 
+            Manhattan Manor is a full service catering facility located in the center of midtown with easy access to all public transportation.
+            `;
+          case 2:
+            return `
+            <h5>Wedding</h5>
+            Two magnificent venues to celebrate your special day! Guests will bask in natural light during the ceremony streaming through the skylights, 
+            then enjoy cocktails in the elegant Manhattan Club, followed by a memorable reception in the brand new Skylight Room with its exposed brick 
+            and magnificent chandeliers. A full service catering facility with you as our only focus.
+            `;
+          case 3:
+            return `
+            <h5>Product launches</h5>
+            Product launch events are essential for any business. Our venues offer the perfect backdrop just steps from all major subways and trains. 
+            Our staff is there to assist in your achieving the specific purpose of creating awareness and publicity for your particular product/brand.
+            `;
+          case 4:
+            return `
+            <h5>Not for profit</h5>
+            Two perfect venues to host special guests for important conferences or meetings as well as an elegant gala to celebrate your accomplishments. 
+            Full service catering to meet your needs.
+            `;
+          case 5:
+            return `
+            <h5>Fashion</h5>
+            Whether you’re hosting a fashion show or need a unique event space to show your collection, the Manhattan Manor is available for 
+            all types of special events with full catering service.
+            `;
+          case 6:
+            return `
+            <h5>Mitzvahs</h5>
+            A fun flexible space, the Manhattan Manor offers ease, convenience and a true New York Experience. Steps from Times Square kids and adults alike will walk into the magical Skylight Room bedecked with all of the stellar activities and food to make it a fun, memorable day for all.
+            `;
+          case 7:
+            return `
+            <h5>Meetings and conferences</h5>
+            An ideal venue for early morning breakfasts, lunch meetings, corporate dinners, full day conferences, holiday parties, and galas – the Manhattan Manor is a full service catering facility located in the center of midtown with easy access to all public transportation.
+            `;
+          case 8:
+            return `
+            <h5>Film and photo</h5>
+            A clean open space with easy loading and unloading, city views, natural light or black out, full catering, and 24 hour access.
+            `;
+          case 9:
+            return `
+              <h5>Broadcast</h5>
+              A versatile space with easy loading and unloading, natural light or black out, full catering, and 24 hour Access.
+              `;
+          case 10:
+            return `
+            <h5>Special productions</h5>
+            A versatile open space in a central, convenient location with easy street access, natural light or black out, 24- hour access, and full catering.
+            `;
+          case 11:
+            return `
+            <h5>Galas and fund raisings</h5>
+            Two magnificent venues to host your important events in the heart of Manhattan. Impressive views, central location, flexible use of both spaces, full catering and exceptional service to host elegant events.
+            `;
+          case 12:
+            return `
+            <h5>Sweet 16's</h5>
+            A fun flexible space, the Manhattan Manor offers ease, convenience and a true New York Experience. Steps from Times Square kids and adults alike will walk into the magical Skylight Room bedecked with all of the stellar activities and food to make it a fun, memorable day for all.
+            `;
+          default:
+            return "";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Noto Sans";
+      }
+
+      .title {
+        text-align: center;
+        margin: 0;
+      }
+
+      .news {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .new {
+        padding: 0 20px;
+        cursor: pointer;
+      }
+
+      .new h5 {
+        font-size: 20px;
+      }
+
+      .new p {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .new hr {
+        border-color: #d9b812;
+      }
+
+      .new__datetime {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <h1 class="title">News</h1>
+      <div class="news" id="news"></div>
+    </div>
+
+    <script>
+      const getNews = async () => {
+        const api = "https://manhattanmanor.com/services/get_news.php";
+        const response = await fetch(api);
+        const news = await response.json();
+        const container = document.getElementById("news");
+
+        let html = "";
+
+        news.forEach((n) => {
+          html += `
+            <div class="new" onclick="window.open('${n.url_link}', '_blank')">
+                <h5>
+                    ${n.title}
+                </h5>
+                <p>
+                    Crain’s invites you to a luncheon on March 3, 2022, to celebrate our
+                    50 Most Powerful Women in New York list. The event will offer
+                    networking for all ticketholders, an awards ceremony and lunch.
+                </p>
+                <hr />
+                <p class="new__datetime">Jan 06, 11:29am</p>
+            </div>
+            `;
+        });
+        container.innerHTML = html;
+      };
+
+      getNews();
+    </script>
+  </body>
+</html>

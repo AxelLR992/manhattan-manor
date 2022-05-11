@@ -561,39 +561,14 @@ var userFeed = new Instafeed({
   links: false,
 });
 
-//   var userFeed = new Instafeed({
-//     get: 'user',
-//     userId: '11092196538',
-//     clientId: '924f677fa3854436947ab4372ffa688d',
-//     accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
-//     resolution: 'standard_resolution',
-//     template: '<div class="col-6 col-md-3"><a href="{{link}}" target="_blank" id="{{id}}"><img class="p-3 img-fluid" src="{{image}}" /></a></div>',
-//     sortBy: 'most-recent',
-//     limit: 4,
-//     links: false
-//   });
-
-// var userFeed = new Instafeed({
-//   get: 'user',
-//   userId: '11092196538',
-//   clientId: 'ca15d34511c449a1acf44857e2263f95',
-//   accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
-//   resolution: 'standard_resolution',
-//   template: '<div class="col-6 col-md-3"><a href="{{link}}" target="_blank" id="{{id}}"><img class="p-3 img-fluid" src="{{image}}" /></a></div>',
-//   sortBy: 'most-recent',
-//   limit: 4,
-//   links: false
-// });
-
-// userFeed.run();
-
 // Other scripts
 
-$(function () {
-  setTimeout(function () {
-    $("#exampleModal").modal("show");
-  }, 10000);
-});
+// * This shows popup about New Year's Event. It should be uncommented at July 1st.
+// $(function () {
+//   setTimeout(function () {
+//     $("#exampleModal").modal("show");
+//   }, 10000);
+// });
 
 var formSent = false;
 
